@@ -1,4 +1,4 @@
 all: server
 
 server:
-	gcc -o server server.c utils.c
+	gcc -o server server.c utils.c -lpthread
